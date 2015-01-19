@@ -13,7 +13,7 @@
 def capletter(str)
   collection = str.split(" ")
   collection.each do |word|
-      word.capitalize
+      print word.capitalize! + " "
     end
 end
 
